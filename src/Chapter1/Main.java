@@ -15,13 +15,14 @@ public class Main {
         try{
             sqlSession = SqlSessionFactoryUtils.openSqlSession();
             RoleMapper roleMapper =sqlSession.getMapper(RoleMapper.class);
-            Role role =roleMapper.getRole((long)1);
+            Role role =roleMapper.getRole((long)2);
             System.out.println(role.toString());
-            log.info(role.getRoleName());
+            log.info(role.toString());
             Role role2 =new Role();
             role2.setNote("这是第三个角色");
             role2.setRoleName("王二");
             roleMapper.insertRole(role2);
+            roleMapper.updateRole(role2);
             Role role2get=roleMapper.getRole((long)3);
             System.out.println(role2.toString());
         }finally {
