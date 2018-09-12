@@ -2,6 +2,7 @@ package Chapter1;
 
 import Chapter1.mapper.RoleMapper;
 import Chapter1.pojo.Role;
+import Chapter1.utils.SqlSessionFactoryByCode;
 import Chapter1.utils.SqlSessionFactoryUtils;
 import org.apache.ibatis.session.SqlSession;
 
@@ -15,7 +16,14 @@ public class Main {
             sqlSession = SqlSessionFactoryUtils.openSqlSession();
             RoleMapper roleMapper =sqlSession.getMapper(RoleMapper.class);
             Role role =roleMapper.getRole((long)1);
+            System.out.println(role.toString());
             log.info(role.getRoleName());
+            Role role2 =new Role();
+            role2.setNote("这是第三个角色");
+            role2.setRoleName("王二");
+            roleMapper.insertRole(role2);
+            Role role2get=roleMapper.getRole((long)3);
+            System.out.println(role2.toString());
         }finally {
             if(sqlSession!=null){
                 sqlSession.close();

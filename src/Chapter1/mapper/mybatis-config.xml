@@ -14,13 +14,13 @@
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED" >
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/ssm?useSSL=false&amp;serverTimezone=UTC"/>
-                <property name="username" value="dong"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/SSM?useSSL=false&amp;serverTimezone=UTC"/>
+                <property name="username" value="root"/>
                 <property name="password" value="39013348"/>
             </dataSource>
         </environment>
     </environments>
 <mappers>
-    <mapper resource="Chapter1.mapper.RoleMapper.xml"/>
+    <mapper resource="Chapter1/mapper/RoleMapper.xml"/>
 </mappers>
 </configuration>

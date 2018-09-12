@@ -9,17 +9,18 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class SqlSessionFactoryUtils {
+    //加锁，防止多线程的时候被多次实例化
     private final static Class<SqlSessionFactoryUtils> LOCK =SqlSessionFactoryUtils.class;
     private static SqlSessionFactory sqlSessionFactory =null;
 
     private SqlSessionFactoryUtils(){}
-
+    //通过XML创建SqlSessionFacory
     public static SqlSessionFactory getSqlSessionFactory(){
         synchronized (LOCK){
             if(sqlSessionFactory!=null){
                 return sqlSessionFactory;
             }
-            String resource ="mybatis-config.xml";
+            String resource ="Chapter1/mapper/mybatis-config.xml";
             InputStream inputStream;
             try {
                 inputStream = Resources.getResourceAsStream(resource);
