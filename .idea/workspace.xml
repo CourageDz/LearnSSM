@@ -2,19 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3967e71d-097f-4477-921d-2ff53950bc88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mybatis_3_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mybatis-3.4.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ojdbc7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter1/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter1/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter1/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter1/mapper/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter1/pojo/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter1/utils/SqlSessionFactoryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/aspectjtools_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbcp2_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_pool2_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_aop_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_beans_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_context_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_context_indexer_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_context_support_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_core_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_expression_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_web_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_webmvc_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/aspectjtools-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-dbcp2-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-pool2-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aop-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-beans-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-core-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-expression-5.0.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/condition/DataSourceCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/config/AutowiredConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/config/DataSourceBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/controller/RoleController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/pojo/JuiceMaker2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/pojo/PojoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/pojo/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/pojo/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/service/RoleDataSourceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/service/RoleService2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/service/impl/RoleDataSourceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/service/impl/RoleServiceImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/service/impl/RoleServiceImpl3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/annotation/service/impl/ServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/database-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/el/pojo/ElBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/el/pojo/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/pojo/ComplexAssembly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/pojo/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/pojo/UserRoleAssembly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/proXml/myXml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/proXml/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/proXml/spring-dataSource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/proXml/spring-namespace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/proXml/spring-props.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/utils/AnnotationMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/utils/XmlMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/aop/aspect/RoleAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/aop/config/AopConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/aop/main/AopMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/aop/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/aop/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/aop/verifier/RoleVerifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/aop/verifier/impl/RoleVerifierImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/aspect/ProxyFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/aspect/ProxyFactoryBeanAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/config/spring-cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/config/spring-cfg3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/config/spring-cfg4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/game/GameMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/game/Interceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/game/ProxyBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/game/ProxyBeanUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/game/interceptor/RoleInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/game/pojo/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/game/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/game/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/multi/aspect/Aspect1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/multi/aspect/Aspect2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/multi/aspect/Aspect3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/multi/bean/MultiBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/multi/bean/impl/MultiBeanImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/multi/config/MultiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/multi/main/MultiMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/xml/aspect/XmlAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/xml/main/XmlAopMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/xml/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/xml/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnSSM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LearnSSM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1/mapper/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1/mapper/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1/utils/SqlSessionFactoryUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1/utils/SqlSessionFactoryUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,141 +104,162 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1781177290">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.82" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="iml" value="1" />
-          <entry key="java" value="5" />
-          <entry key="properties" value="1" />
+          <entry key="class" value="72" />
+          <entry key="iml" value="3" />
+          <entry key="java" value="160" />
+          <entry key="properties" value="12" />
           <entry key="tld" value="1" />
-          <entry key="xml" value="2" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="32" />
+          <entry key="xsd" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="5" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="CLASS" value="72" />
+          <entry key="IDEA_MODULE" value="3" />
+          <entry key="JAVA" value="160" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="12" />
+          <entry key="XML" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="java" value="199" />
+          <entry key="java" value="2326" />
+          <entry key="properties" value="16" />
           <entry key="tld" value="1" />
-          <entry key="xml" value="247" />
+          <entry key="txt" value="7" />
+          <entry key="xml" value="450" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="199" />
-          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="JAVA" value="2326" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="Properties" value="16" />
           <entry key="SQL" value="1" />
-          <entry key="XML" value="247" />
+          <entry key="XML" value="450" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.core.usages.trigger">
+        <counts>
+          <entry key="fixes.SpringFacetInspection.AddFacetFix" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearnSSM.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter1/mapper/RoleMapper.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter11/game/interceptor/RoleInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="341">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter1/mapper/RoleMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter11/game/GameMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="250">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter11/game/ProxyBeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#185#186#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter11/aop/aspect/RoleAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter11/game/pojo/Role.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter11/game/service/RoleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter11/game/service/impl/RoleServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter1/utils/SqlSessionFactoryUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter11/game/ProxyBeanUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="492">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Chapter1/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter1/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter1/mapper/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter1/pojo/Role.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,9 +271,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="xml" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com.ssm.chapter11</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>Chapter11</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -179,13 +293,53 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Chapter1/pojo/Role.java" />
         <option value="$PROJECT_DIR$/src/Chapter1/mapper/Mybatis.tld" />
-        <option value="$PROJECT_DIR$/src/Chapter1/mapper/RoleMapper.xml" />
-        <option value="$PROJECT_DIR$/src/Chapter1/mapper/RoleMapper.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1/utils/SqlSessionFactoryUtils.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1/mapper/RoleMapper2.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1/pojo/Role.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1/utils/SqlSessionFactoryByCode.java" />
         <option value="$PROJECT_DIR$/src/Chapter1/mapper/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/Chapter1/Main.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1/mapper/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/Chapter1/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/Chapter1/utils/SqlSessionFactoryUtils.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/pojo/UserRoleAssembly.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/pojo/User.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/pojo/Role.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/pojo/ComplexAssembly.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/el/pojo/Role.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/pojo/Role.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/utils/Main.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/service/RoleDataSourceService.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/service/impl/RoleServiceImpl2.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/config/DataSourceBean.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/proXml/spring-props.xml" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/pojo/JuiceMaker.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/pojo/PojoConfig.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/proXml/spring-namespace.xml" />
+        <option value="$PROJECT_DIR$/src/Chapter10/proXml/myXml.xml" />
+        <option value="$PROJECT_DIR$/src/Chapter10/proXml/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/config/AutowiredConfig.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/pojo/ServiceConfig.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/controller/RoleController2.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/service/impl/RoleDataSourceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/proXml/spring-dataSource.xml" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/service/impl/ServiceConfig.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/pojo/JuiceMaker2.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/pojo/Source.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/utils/XmlMain.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/service/impl/RoleServiceImpl3.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/annotation/config/ApplicationConfig.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/database-config.properties" />
+        <option value="$PROJECT_DIR$/src/Chapter10/utils/AnnotationMain.java" />
+        <option value="$PROJECT_DIR$/src/Chapter11/aop/main/AopMain.java" />
+        <option value="$PROJECT_DIR$/src/Chapter11/aspect/ProxyFactoryBean.java" />
+        <option value="$PROJECT_DIR$/src/Chapter11/aop/aspect/RoleAspect.java" />
+        <option value="$PROJECT_DIR$/src/Chapter11/game/GameMain.java" />
+        <option value="$PROJECT_DIR$/src/Chapter11/game/ProxyBeanUtil.java" />
       </list>
     </option>
   </component>
@@ -196,7 +350,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="321" />
+    <option name="x" value="1912" />
+    <option name="y" value="177" />
     <option name="width" value="1456" />
     <option name="height" value="876" />
   </component>
@@ -208,6 +363,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,51 +375,89 @@
             <path>
               <item name="LearnSSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnSSM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnSSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnSSM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnSSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnSSM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter11" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter11" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter11" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter11" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter11" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536667272331" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/j2eeSSMPro" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537426792386" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../taeky/dCPABE" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="GrepConsole" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chapter10.pojo" />
       <recent name="Chapter1" />
       <recent name="Chapter1.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\JdeaWorkspace\src\github.com\CourageD\LearnSSM\src\Chapter1\mapper" />
-      <recent name="E:\JdeaWorkspace\src\github.com\CourageD\LearnSSM\src\Chapter1" />
       <recent name="E:\JdeaWorkspace\src\github.com\CourageD\LearnSSM\lib" />
+      <recent name="E:\JdeaWorkspace\src\github.com\CourageD\LearnSSM\src\Chapter11\config" />
+      <recent name="E:\JdeaWorkspace\src\github.com\CourageD\LearnSSM\src\Chapter11" />
+      <recent name="E:\JdeaWorkspace\src\github.com\CourageD\LearnSSM\src" />
+      <recent name="E:\JdeaWorkspace\src\github.com\CourageD\LearnSSM\src\Chapter10" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -276,6 +471,74 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Application.GameMain">
+    <configuration name="AnnotationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter10.utils.AnnotationMain" />
+      <module name="LearnSSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter10.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter11.game.GameMain" />
+      <module name="LearnSSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter11.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter1.Main" />
+      <module name="LearnSSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmlMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter10.utils.XmlMain" />
+      <module name="LearnSSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter10.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.XmlMain" />
+      <item itemvalue="Application.AnnotationMain" />
+      <item itemvalue="Application.GameMain" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameMain" />
+        <item itemvalue="Application.AnnotationMain" />
+        <item itemvalue="Application.XmlMain" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -295,17 +558,48 @@
       <workItem from="1536665493695" duration="1987000" />
       <workItem from="1536668028463" duration="599000" />
       <workItem from="1536669170185" duration="11000" />
+      <workItem from="1536720322393" duration="10036000" />
+      <workItem from="1536810179546" duration="2280000" />
+      <workItem from="1536915081893" duration="2503000" />
+      <workItem from="1536979689559" duration="2946000" />
+      <workItem from="1537271038401" duration="6234000" />
+      <workItem from="1537321513255" duration="12525000" />
+      <workItem from="1537357967577" duration="634000" />
+      <workItem from="1537423461239" duration="3547000" />
     </task>
+    <task id="LOCAL-00001" summary="“第三章内容”">
+      <created>1536754567276</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536754567276</updated>
+    </task>
+    <task id="LOCAL-00002" summary="“第三章内容”">
+      <created>1536755098854</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536755098854</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4490000" />
+    <option name="totallyTimeSpent" value="45195000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="177" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15831557" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2299427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -313,17 +607,19 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.12703583" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.25841478" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49662617" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.33659065" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
+      <window_info anchor="bottom" id="Tail" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -338,80 +634,474 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="“第三章内容”" />
+    <option name="LAST_COMMIT_MESSAGE" value="“第三章内容”" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter1/utils/SqlSessionFactoryUtils.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter11/game/GameMain.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/mapper/Mybatis.xml" />
-    <entry file="file://$PROJECT_DIR$/LearnSSM.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/mapper/RoleMapper.xml">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="204">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/mapper/RoleMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/annotation/condition/DataSourceCondition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="300">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/annotation/service/impl/ServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/proXml/spring-dataSource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/proXml/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1563">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/proXml/spring-namespace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/annotation/pojo/Source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/annotation/pojo/JuiceMaker2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/proXml/spring-props.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/annotation/service/RoleDataSourceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/annotation/pojo/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/annotation/config/DataSourceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/utils/XmlMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/annotation/service/RoleService2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/annotation/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/utils/AnnotationMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/annotation/service/impl/RoleDataSourceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/annotation/config/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" column="98" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/database-config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/commons-dbcp2-2.5.0.jar!/org/apache/commons/dbcp2/BasicDataSourceFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3600">
+          <caret line="166" column="34" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/annotation/config/AutowiredConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/annotation/controller/RoleController2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/annotation/service/impl/RoleServiceImpl2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/annotation/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/annotation/service/impl/RoleServiceImpl3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/aop/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/config/spring-cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/xml/aspect/XmlAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/aspect/ProxyFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/aspect/ProxyFactoryBeanAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/xml/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/xml/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/multi/aspect/Aspect1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/multi/aspect/Aspect2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/multi/aspect/Aspect3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/aop/config/AopConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/aop/main/AopMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/aop/verifier/RoleVerifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/aop/verifier/impl/RoleVerifierImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/aop/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/game/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JAVA/jdk/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="703" column="64" lean-forward="true" selection-start-line="703" selection-start-column="64" selection-end-line="703" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JAVA/jdk/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="685" column="5" lean-forward="true" selection-start-line="685" selection-start-column="5" selection-end-line="685" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/game/Interceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/aop/aspect/RoleAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/game/ProxyBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/game/GameMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/game/pojo/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/game/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/utils/SqlSessionFactoryUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/game/ProxyBeanUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="492">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/Chapter11/game/interceptor/RoleInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/mapper/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/pojo/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="341">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -432,7 +1122,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -467,18 +1157,29 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>LearnSSM</last-edited>
+          <last-edited>Spring|LearnSSM</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mybatis-3.4.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

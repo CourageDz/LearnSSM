@@ -7,8 +7,11 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.logging.Logger;
 
 public class SqlSessionFactoryUtils {
+    Logger log = Logger.getLogger("SqlSessionFactoryUtils.class");
+
     //加锁，防止多线程的时候被多次实例化
     private final static Class<SqlSessionFactoryUtils> LOCK =SqlSessionFactoryUtils.class;
     private static SqlSessionFactory sqlSessionFactory =null;

@@ -22,7 +22,7 @@ public class Main {
             role2.setNote("这是第三个角色");
             role2.setRoleName("王二");
             roleMapper.insertRole(role2);
-            roleMapper.updateRole(role2);
+//            roleMapper.updateRole(role2);
             Role role2get=roleMapper.getRole((long)3);
             System.out.println(role2.toString());
         }finally {

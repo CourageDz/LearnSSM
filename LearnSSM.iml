@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -9,5 +14,20 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="mybatis-3.4.6" level="project" />
     <orderEntry type="library" name="mysql-connector-java-8.0.12" level="project" />
+    <orderEntry type="library" name="ojdbc7" level="project" />
+    <orderEntry type="library" name="spring-beans-5.0.8.RELEASE" level="project" />
+    <orderEntry type="library" name="spring-context-5.0.8.RELEASE" level="project" />
+    <orderEntry type="library" name="spring-context-indexer-5.0.8.RELEASE" level="project" />
+    <orderEntry type="library" name="spring-context-support-5.0.8.RELEASE" level="project" />
+    <orderEntry type="library" name="spring-core-5.0.8.RELEASE" level="project" />
+    <orderEntry type="library" name="commons-dbcp2-2.5.0" level="project" />
+    <orderEntry type="library" name="spring-web-5.0.8.RELEASE" level="project" />
+    <orderEntry type="library" name="spring-webmvc-5.0.8.RELEASE" level="project" />
+    <orderEntry type="library" name="commons-logging-1.2" level="project" />
+    <orderEntry type="library" name="spring-expression-5.0.8.RELEASE" level="project" />
+    <orderEntry type="library" name="spring-aop-5.0.8.RELEASE" level="project" />
+    <orderEntry type="library" name="commons-pool2-2.6.0" level="project" />
+    <orderEntry type="library" name="aspectjtools-1.6.2" level="project" />
+    <orderEntry type="library" name="aspectjtools-1.6.2" level="project" />
   </component>
 </module>
